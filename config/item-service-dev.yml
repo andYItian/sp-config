@@ -2,8 +2,8 @@ spring:
   application:
     name: item-service
     
-#server:
-#  port: 8001
+server:
+  port: 8003
   
 eureka:
   client:
@@ -15,7 +15,7 @@ spring:
   profiles: item1
   
 server:
-  port: 8003
+  port: 8001
 ---
 spring:
   profiles: item2
